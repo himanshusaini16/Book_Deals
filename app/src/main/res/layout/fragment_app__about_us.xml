@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navigation.App_AboutUs">
+
+
+    <LinearLayout
+        android:id="@+id/aboutLinear"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="end">
+
+
+        <TextView
+            android:textSize="20sp"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="
+
+Book Deals is an Online Classified Platform To Buy And Sell New or Used Engineering Books and Other Stationary Items.
+
+            This Application is useful to purchase Books online and directly contacting with the seller.
+
+
+    Developers:
+
+            Himanshu Saini
+            Jatin Arora
+            Jubi John"
+            android:ems="50"
+            android:id="@+id/textView8" />
+    </LinearLayout>
+
+</FrameLayout>

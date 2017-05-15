@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/splash">
+
+    <ImageView
+        android:contentDescription="@string/Content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView3" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/usernamelgWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#FFFFFF"
+        android:layout_marginTop="80dp"
+        android:hint="Email or Phone">
+    <EditText
+        android:labelFor="@+id/loginfinally"
+        android:cursorVisible="true"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/underlinebg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editTextemail"
+        android:layout_gravity="center_horizontal"
+         />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:textColorHint="#FFFFFF"
+        android:id="@+id/passwordlgWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:hint="Password">
+    <EditText
+        android:labelFor="@+id/loginfinally"
+        android:cursorVisible="true"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/underlinebg"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/editTextpassword"
+        android:layout_gravity="center_horizontal"
+         />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:textSize="18sp"
+        android:textColor="@color/ManualColor"
+        android:background="#FFFFFF"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Log In"
+        android:id="@+id/loginfinally" />
+
+    <Button
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:background="@color/ManualColor"
+        android:textColor="#FFFFFF"
+        android:clickable="true"
+        android:textSize="15sp"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/adb"
+        android:text="Not A Member? Sign Up Now."
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

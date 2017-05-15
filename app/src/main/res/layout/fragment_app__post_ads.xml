@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navigation.App_PostAds"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Category"
+        android:id="@+id/textView3sa"
+        />
+
+    <ExpandableListView
+        android:layout_marginTop="20dp"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true"
+        android:divider="#000000"
+        android:dividerHeight="1dp"
+        android:verticalScrollbarPosition="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/expandableListView"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Book Deals</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="search_ads">Search Ads</string>
+    <string name="home">Home</string>
+    <string name="my_activities">MY ACTIVITIES</string>
+    <string name="profile">Profile</string>
+    <string name="post_ads">Post Ads</string>
+    <string name="others">OTHERS</string>
+    <string name="settings">Settings</string>
+    <string name="feedback">Feedback</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="about_us">About Us</string>
+    <string name="share_app">Share App</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_app__splash">App_Splash</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="book_deals"><b><i>Book Deals</i></b></string>
+    <string name="sign_up">Sign Up</string>
+    <string name="Skip"><u>Skip</u></string>
+    <string name="log_in_or_sign_up"><u>Log In or Sign Up</u></string>
+    <string name="not_registered_signup"><u>Not Registered Yet? SignUp</u></string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_username_or_phone">Enter Email or Phone</string>
+    <string name="Content">ImageView</string>
+</resources>

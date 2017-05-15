@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/splash">
+
+
+    <Button
+        android:background="@color/ManualColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Skip"
+        android:id="@+id/skipbutton"
+        android:layout_gravity="end"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <ImageView
+        android:contentDescription="Skip"
+        android:layout_margin="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView" />
+
+    <Button
+        android:textColor="@color/ManualColor"
+        android:background="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:id="@+id/signup"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="OR"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:textColor="@color/ManualColor"
+        android:background="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:id="@+id/login"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
